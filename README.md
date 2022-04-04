@@ -1,4 +1,12 @@
-# XT-IDE 8-Bit IDE Controller
+# XT-IDE 8-Bit IDE Controller for Robotron EC1834
+
+This is a modified version of the original Glitchworks XT-IDE rev 4 controller.
+
+The ISA edge connector is replaced with DIN 41612 connector, used by the Robotron EC1834 PC.
+
+Also the layout of the PCB was modified, to fit the mounting height.
+
+Modification was done by Mario Goegel.
 
 [Glitch Works](http://www.glitchwrks.com/) continuing extension of the XT-IDE rev 2 ISA controller. This board, when used with a custom BIOS like the XT-IDE Universal BIOS, allows the use of modern 16-bit IDE devices on the 8-bit ISA bus.
 
