@@ -1,0 +1,85 @@
+Hinweis: Erstelle Sicherungskopie von Datei "F:\030-RETRO\XTIDE-glitch\xt_ide-master\sym-lib-table" in Datei "F:\030-RETRO\XTIDE-glitch\xt_ide-master\rescue-backup\sym-lib-table-2022-03-20-12-21-06".
+Hinweis: Erstelle Sicherungskopie von Datei "F:\030-RETRO\XTIDE-glitch\xt_ide-master\XT-IDE.sch" in Datei "F:\030-RETRO\XTIDE-glitch\xt_ide-master\rescue-backup\XT-IDE-2022-03-20-12-21-06.sch".
+Hinweis: Erstelle Sicherungskopie von Datei "F:\030-RETRO\XTIDE-glitch\xt_ide-master\XT-IDE.pro" in Datei "F:\030-RETRO\XTIDE-glitch\xt_ide-master\rescue-backup\XT-IDE-2022-03-20-12-21-06.pro".
+Hinweis: Erstelle Sicherungskopie von Datei "F:\030-RETRO\XTIDE-glitch\xt_ide-master\XT-IDE-cache.lib" in Datei "F:\030-RETRO\XTIDE-glitch\xt_ide-master\rescue-backup\XT-IDE-cache-2022-03-20-12-21-06.lib".
+Hinweis: Erstelle Sicherungskopie von Datei "F:\030-RETRO\XTIDE-glitch\xt_ide-master\XT-IDE-rescue.lib" in Datei "F:\030-RETRO\XTIDE-glitch\xt_ide-master\rescue-backup\XT-IDE-rescue-2022-03-20-12-21-06.lib".
+Hinweis: Erstelle Sicherungskopie von Datei "F:\030-RETRO\XTIDE-glitch\xt_ide-master\XT-IDE-rescue.dcm" in Datei "F:\030-RETRO\XTIDE-glitch\xt_ide-master\rescue-backup\XT-IDE-rescue-2022-03-20-12-21-06.dcm".
+Hinweis: Füge Bibliothek "XT-IDE-rescue", Datei "${KIPRJMOD}/XT-IDE-rescue.lib" der Bauteilbibliothekstabelle des Projektes hinzu.
+Bauteilsymbol "74LS32" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "CONN_3" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "CONN_3" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "28C256-RESCUE-XT-IDE" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "CONN_2" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS04" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "CONN_1" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "CONN_1" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "BUSPC" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "CONN_5X2" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "RR9" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "RR9" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS688" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "74LS04" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS32" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS04" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS04" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS138" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS32" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS04" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS32" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS688" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS04" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS573" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS573" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "CONN_20X2" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "GND-RESCUE-XT-IDE" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "VCC" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "VCC" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "VCC" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND-RESCUE-XT-IDE" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "GND-RESCUE-XT-IDE" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "CP" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "74LS245" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "GND-RESCUE-XT-IDE" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "VCC" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "VCC" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "GND-RESCUE-XT-IDE" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "VCC" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "DIPS_08" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "DIPS_08" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "GND-RESCUE-XT-IDE" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "VCC" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND-RESCUE-XT-IDE" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS245" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "GND-RESCUE-XT-IDE" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "VCC" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "GND-RESCUE-XT-IDE" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "CONN_2" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "R" wurde der Bibliothek "Device" zugeordnet.
+Bauteilsymbol "GND-RESCUE-XT-IDE" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "GND-RESCUE-XT-IDE" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "LED-RESCUE-XT-IDE" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "VCC" wurde der Bibliothek "power" zugeordnet.
+Bauteilsymbol "CONN_1" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "CONN_1" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "CONN_1" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS04" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS04" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS04" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS04" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS04" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "74LS04" wurde der Bibliothek "XT-IDE-rescue" zugeordnet.
+Bauteilsymbol "C" wurde der Bibliothek "Device" zugeordnet.
+Hinweis: Kartierung der Bauteilbibliothekstabelle ist fertig gestellt!

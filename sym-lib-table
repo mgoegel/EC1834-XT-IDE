@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name XT-IDE-rescue)(type Legacy)(uri ${KIPRJMOD}/XT-IDE-rescue.lib)(options "")(descr ""))
+  (lib (name EC1834-ISA)(type Legacy)(uri F:/OneDrive/Projekte/EC1834-XTIDE/ec1834-post-lib.lib)(options "")(descr ""))
+)
