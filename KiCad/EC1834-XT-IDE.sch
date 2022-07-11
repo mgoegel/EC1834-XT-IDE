@@ -4,7 +4,7 @@ EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
-Title "XT-IDE 8-bit ISA IDE Controller"
+Title "EC1834 XT-IDE 8-bit ISA IDE Controller"
 Date "2022-04-04"
 Rev "5"
 Comp "The Glitch Works/M.Goegel"
