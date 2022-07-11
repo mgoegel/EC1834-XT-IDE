@@ -9,18 +9,21 @@ Das Layout der Original Platine wurde angepasst, damit die Platine und die Slotb
 Diese Modifikation wurde von Mario Gögel durchgeführt.
 
 **WICHTIGE HINWEISE ZU Rev. 4b (Revision nicht aufgedruckt)**
+
 Der Gedanke, für die 74LS688 auf pull up zu wechseln, war eine schlechte Idee, weil ich einiges übersehen habe.
 Montiert wie vorgesehen, wird der Controller nicht funktionieren.
+
 Benötigte Änderungen:
-    Pin 2 von RN2 muss getrennt werden
-    Dafür muss ein 10K Widerstand an U1 von Pin 12 zu GND gelegt werden (am besten zu GND auf C1)
-    
-    Die Beschreibung auf der Platine für SW2, ENA+WR stimmen nicht - da keine Verbindung zu RP2 besteht, passt die Orignal Beschreibung
-    SW2 8K könnte außer Funktion sein - oder 28C256 ROMs funktionieren nicht. Ungetestet, 28C64B funktionieren.
+
+* Pin 2 von RN2 muss getrennt werden
+* Dafür muss ein 10K Widerstand an U1 von Pin 12 zu GND gelegt werden (am besten zu GND auf C1)
+* Die Beschreibung auf der Platine für SW2, ENA+WR stimmen nicht - da keine Verbindung zu RP2 besteht, passt die Orignal Beschreibung
+* SW2 8K könnte außer Funktion sein - oder 28C256 ROMs funktionieren nicht. Ungetestet, 28C64B funktionieren.
 
 In Revision 4c wurde das behoben.
 
 **Ausschluss:**
+
 Ich übernehme keine Verantwortung für Schäden, die durch diese Anpassung entstehen. Alles wurde nach bestem Wissen und Gewissen angepasst.
 Benutzung auf eigene Gefahr!
 
@@ -28,7 +31,9 @@ Benutzung auf eigene Gefahr!
 
 Die BOM mit Mouser Bestellnummer ist [hier](https://github.com/glitchwrks/xt_ide/blob/master/bill_of_materials.md). 
 Vermutlich müssen bei mouser (u.a.) andere Artikel gewählt werden. Zum Zeitpunkt der Erstellung (Mär-Jul 2022) ist die Liefersituation sehr schwierig.
+
 Einen Bausatz kann man hier bestellen: [The Glitch Works](http://www.glitchwrks.com/xt-ide)
+
 Dort fehlt aber der DIN Verbinder.
 
 ### Jumper Settings
