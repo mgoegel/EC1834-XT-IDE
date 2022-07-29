@@ -4,17 +4,17 @@ EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
-Title "XT-IDE 8-bit ISA IDE Controller"
-Date "2022-04-04"
-Rev "5"
+Title "EC1834 XT-IDE 8-bit ISA IDE Controller"
+Date "2022-07-12"
+Rev "4c"
 Comp "The Glitch Works/M.Goegel"
 Comment1 "J. Chapman"
 Comment2 "M. Goegel"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 13450 3600 0    60   ~ 0
-IDE/CF POWER SUPPLY OPTION JUMPER
+Text Notes 15450 2100 0    60   ~ 0
+IDE/CF POWER SUPPLY \nOPTION JUMPER
 Text Notes 11200 12350 0    60   ~ 0
 IDE ACTIVITY LEDS\nOBSERVE POLARITY -- PIN 1 CATHODE
 Text Notes 11000 1450 0    60   ~ 0
@@ -83,18 +83,18 @@ F 3 "" H 8600 8900 60  0001 C CNN
 	1    8600 8900
 	1    0    0    -1  
 $EndComp
-Text Label 14900 3400 0    60   ~ 0
+Text Label 15700 1600 1    60   ~ 0
 VCC
 $Comp
 L XT-IDE-rescue:CONN_2 J4
 U 1 1 4DC59A7A
-P 14500 3300
-F 0 "J4" V 14450 3300 40  0000 C CNN
-F 1 "CONN_2" V 14550 3300 40  0000 C CNN
-F 2 "headers_with_detent:1x2" V 14650 3300 40  0001 C CNN
-F 3 "" H 14500 3300 60  0001 C CNN
-	1    14500 3300
-	-1   0    0    1   
+P 16050 1750
+F 0 "J4" V 16000 1750 40  0000 C CNN
+F 1 "CONN_2" V 16100 1750 40  0000 C CNN
+F 2 "headers_with_detent:1x2" V 16200 1750 40  0001 C CNN
+F 3 "" H 16050 1750 60  0001 C CNN
+	1    16050 1750
+	1    0    0    -1  
 $EndComp
 $Comp
 L XT-IDE-rescue:74LS04 U6
@@ -971,7 +971,7 @@ F 3 "" H 5300 1400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 3700 7800 0    60   ~ 0
-Switch Settings\n1-4 ROM Address (OFF == 1)\n5 A14 Enable (OFF == enabled)\n6 A13 (OFF == enabled)\n7 ROM Enable (OFF == enabled)\n8 Write Enable (OFF == enabled)
+Switch Settings\n1-4 ROM Address (ON == 1)\n5 A14 Enable (ON == enabled)\n6 A13 (ON == enabled)\n7 ROM Enable (ON == enabled)\n8 Write Enable (ON == enabled)
 Text GLabel 1050 8850 0    50   Input ~ 0
 AEN
 Text GLabel 1050 8950 0    50   Input ~ 0
@@ -985,13 +985,13 @@ A13
 $Comp
 L XT-IDE-rescue:GND-RESCUE-XT-IDE #PWR07
 U 1 1 572A7FE2
-P 1050 8050
-F 0 "#PWR07" H 1050 8050 30  0001 C CNN
-F 1 "GND" H 1050 7980 30  0001 C CNN
-F 2 "" H 1050 8050 60  0000 C CNN
-F 3 "" H 1050 8050 60  0000 C CNN
-	1    1050 8050
-	-1   0    0    1   
+P 1950 7800
+F 0 "#PWR07" H 1950 7800 30  0001 C CNN
+F 1 "GND" H 1950 7730 30  0001 C CNN
+F 2 "" H 1950 7800 60  0000 C CNN
+F 3 "" H 1950 7800 60  0000 C CNN
+	1    1950 7800
+	1    0    0    -1  
 $EndComp
 Text GLabel 7800 9300 0    50   Input ~ 0
 A13
@@ -1000,13 +1000,13 @@ A14
 $Comp
 L power:VCC #PWR08
 U 1 1 572AAEEC
-P 1950 7800
-F 0 "#PWR08" H 1950 7900 30  0001 C CNN
-F 1 "VCC" H 1950 7900 30  0000 C CNN
-F 2 "" H 1950 7800 60  0000 C CNN
-F 3 "" H 1950 7800 60  0000 C CNN
-	1    1950 7800
-	-1   0    0    1   
+P 1050 8050
+F 0 "#PWR08" H 1050 8150 30  0001 C CNN
+F 1 "VCC" H 1050 8150 30  0000 C CNN
+F 2 "" H 1050 8050 60  0000 C CNN
+F 3 "" H 1050 8050 60  0000 C CNN
+	1    1050 8050
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR09
@@ -1042,7 +1042,7 @@ F 3 "" H 3150 7600 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1150 9450 0    50   ~ 0
-ROM Address Notes:\nFor full 32K device (28C256) set S1 3,4,5,6 ON\nFor 8K device (28C64B) set S1 5,6 OFF\nS1 3,4 become address switches
+ROM Address Notes:\nFor full 32K device (28C256) set S1 3,4,5,6 OFF\nFor 8K device (28C64B) set S1 5,6 ON\nS1 3,4 become address switches
 Text Notes 650  9900 0    60   ~ 0
 Optional (but probably desired) Boot ROM
 $Comp
@@ -1092,24 +1092,24 @@ $EndComp
 $Comp
 L XT-IDE-rescue:GND-RESCUE-XT-IDE #PWR012
 U 1 1 573048DB
-P 1050 4850
-F 0 "#PWR012" H 1050 4850 30  0001 C CNN
-F 1 "GND" H 1050 4780 30  0001 C CNN
-F 2 "" H 1050 4850 60  0000 C CNN
-F 3 "" H 1050 4850 60  0000 C CNN
-	1    1050 4850
-	-1   0    0    1   
+P 1950 4650
+F 0 "#PWR012" H 1950 4650 30  0001 C CNN
+F 1 "GND" H 1950 4580 30  0001 C CNN
+F 2 "" H 1950 4650 60  0000 C CNN
+F 3 "" H 1950 4650 60  0000 C CNN
+	1    1950 4650
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR013
 U 1 1 5730495B
-P 1950 4650
-F 0 "#PWR013" H 1950 4750 30  0001 C CNN
-F 1 "VCC" H 1950 4750 30  0000 C CNN
-F 2 "" H 1950 4650 60  0000 C CNN
-F 3 "" H 1950 4650 60  0000 C CNN
-	1    1950 4650
-	-1   0    0    1   
+P 1050 4850
+F 0 "#PWR013" H 1050 4950 30  0001 C CNN
+F 1 "VCC" H 1050 4950 30  0000 C CNN
+F 2 "" H 1050 4850 60  0000 C CNN
+F 3 "" H 1050 4850 60  0000 C CNN
+	1    1050 4850
+	1    0    0    -1  
 $EndComp
 Text GLabel 4300 9800 0    50   Input ~ 0
 A19
@@ -1217,7 +1217,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 5100 2250 5100
 Wire Wire Line
-	14850 3400 15300 3400
+	15700 1650 15700 1200
 Wire Wire Line
 	11050 9750 11400 9750
 Connection ~ 12500 2050
@@ -1227,7 +1227,7 @@ Connection ~ 12500 1750
 Wire Wire Line
 	12500 1650 12500 1750
 Wire Wire Line
-	12500 2450 13600 2450
+	12500 2450 12700 2450
 Wire Wire Line
 	9800 8700 9300 8700
 Wire Wire Line
@@ -1527,12 +1527,6 @@ Wire Wire Line
 	7900 9600 7200 9600
 Wire Wire Line
 	11050 9950 11400 9950
-Wire Wire Line
-	14400 1850 15200 1850
-Wire Wire Line
-	15200 1850 15200 3200
-Wire Wire Line
-	15200 3200 14850 3200
 Wire Wire Line
 	7900 9800 7400 9800
 Wire Wire Line
@@ -2508,4 +2502,250 @@ $EndComp
 NoConn ~ 1650 1500
 Text Notes 600  6150 0    60   ~ 0
 No Slot 8 Support mod supported on EC1834
+$Comp
+L Connector_Generic:Conn_02x22_Odd_Even IDE2
+U 1 1 62E1411A
+P 14000 4350
+AR Path="/62E1411A" Ref="IDE2"  Part="1" 
+AR Path="/962E1411A" Ref="IDE?"  Part="1" 
+AR Path="/FFFFFFF062E1411A" Ref="IDE?"  Part="1" 
+AR Path="/3D7E000062E1411A" Ref="IDE?"  Part="1" 
+AR Path="/23D93062E1411A" Ref="IDE?"  Part="1" 
+AR Path="/23D8D462E1411A" Ref="IDE?"  Part="1" 
+AR Path="/26000062E1411A" Ref="IDE?"  Part="1" 
+F 0 "IDE2" H 14050 5573 60  0000 C CNN
+F 1 "CONN_22X2" H 14050 5475 50  0000 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_2x22_P2.00mm_Horizontal" V 14100 4350 50  0001 C CNN
+F 3 "" H 14000 4350 60  0001 C CNN
+	1    14000 4350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 14950 4950
+NoConn ~ 14950 4850
+Text Label 14450 5250 0    60   ~ 0
+GND
+Text Label 14500 5150 0    60   ~ 0
+*CS3FX
+Text Label 14500 5050 0    60   ~ 0
+A2-IDE
+Text Label 14450 4950 0    60   ~ 0
+PDIAG.2
+Text Label 14450 4850 0    60   ~ 0
+IOCS16.2
+Text Label 14700 4750 0    60   ~ 0
+GND
+Text Label 14650 4650 0    60   ~ 0
+CSEL
+Text Label 14700 4550 0    60   ~ 0
+GND
+Text Label 14700 4450 0    60   ~ 0
+GND
+Text Label 14700 4350 0    60   ~ 0
+GND
+Text Label 14650 3350 0    60   ~ 0
+GND
+Text Label 14700 4150 0    60   ~ 0
+D15
+Text Label 14700 4050 0    60   ~ 0
+D14
+Text Label 14700 3950 0    60   ~ 0
+D13
+Text Label 14700 3850 0    60   ~ 0
+D12
+Text Label 14700 3750 0    60   ~ 0
+D11
+Text Label 14700 3650 0    60   ~ 0
+D10
+Text Label 14700 3550 0    60   ~ 0
+D9
+Text Label 14700 3450 0    60   ~ 0
+D8
+Wire Wire Line
+	14300 5050 14950 5050
+Wire Wire Line
+	14300 5150 14950 5150
+Wire Wire Line
+	14300 5250 14950 5250
+Wire Wire Line
+	14300 4350 14950 4350
+Wire Wire Line
+	14300 4450 14950 4450
+Wire Wire Line
+	14300 4550 14950 4550
+Wire Wire Line
+	14300 4650 15200 4650
+Wire Wire Line
+	14300 4750 14950 4750
+Wire Wire Line
+	14300 4850 14950 4850
+Wire Wire Line
+	14300 4950 14950 4950
+Wire Wire Line
+	14300 3350 14950 3350
+Wire Wire Line
+	14300 4150 14950 4150
+Wire Wire Line
+	14300 4050 14950 4050
+Wire Wire Line
+	14300 3950 14950 3950
+Wire Wire Line
+	14300 3850 14950 3850
+Wire Wire Line
+	14300 3750 14950 3750
+Wire Wire Line
+	14300 3650 14950 3650
+Wire Wire Line
+	14300 3550 14950 3550
+Wire Wire Line
+	14300 3450 14950 3450
+Text Label 13150 5250 0    60   ~ 0
+*DASP
+Text Label 13150 5150 0    60   ~ 0
+*CS1FX
+Text Label 13150 5050 0    60   ~ 0
+A0-IDE
+Text Label 13150 4950 0    60   ~ 0
+A1-IDE
+Text Label 13150 4850 0    60   ~ 0
+INTRQ
+Text Label 13150 4750 0    60   ~ 0
+DMACK
+Text Label 13150 4650 0    60   ~ 0
+IORDY
+Text Label 13150 4550 0    60   ~ 0
+*IOR-IDE
+Text Label 13150 4450 0    60   ~ 0
+*IOW-IDE
+Text Label 13150 4350 0    60   ~ 0
+DMARQ
+Text Label 13200 4250 0    60   ~ 0
+GND
+Text Label 13150 3350 0    60   ~ 0
+*RESET
+Text Label 13200 3450 0    60   ~ 0
+D7
+Text Label 13200 3550 0    60   ~ 0
+D6
+Text Label 13200 3650 0    60   ~ 0
+D5
+Text Label 13200 3750 0    60   ~ 0
+D4
+Text Label 13200 3850 0    60   ~ 0
+D3
+Text Label 13200 3950 0    60   ~ 0
+D2
+Text Label 13200 4050 0    60   ~ 0
+D1
+Text Label 13200 4150 0    60   ~ 0
+D0
+Wire Wire Line
+	12700 4850 13800 4850
+Wire Wire Line
+	13100 5050 13800 5050
+Wire Wire Line
+	13100 5150 13800 5150
+Wire Wire Line
+	13100 5250 13800 5250
+Wire Wire Line
+	13100 3350 13800 3350
+Wire Wire Line
+	13100 4250 13800 4250
+Wire Wire Line
+	13100 4350 13800 4350
+Wire Wire Line
+	13100 4450 13800 4450
+Wire Wire Line
+	13100 4550 13800 4550
+Wire Wire Line
+	13100 4650 13800 4650
+Wire Wire Line
+	12900 4750 13800 4750
+Wire Wire Line
+	13100 4950 13800 4950
+Wire Wire Line
+	13100 3450 13800 3450
+Wire Wire Line
+	13100 3550 13800 3550
+Wire Wire Line
+	13100 3650 13800 3650
+Wire Wire Line
+	13100 3750 13800 3750
+Wire Wire Line
+	13100 3850 13800 3850
+Wire Wire Line
+	13100 3950 13800 3950
+Wire Wire Line
+	13100 4050 13800 4050
+Wire Wire Line
+	13100 4150 13800 4150
+Wire Wire Line
+	12700 4850 12700 2450
+Connection ~ 12700 2450
+Wire Wire Line
+	12700 2450 13600 2450
+$Comp
+L power:VCC #PWR?
+U 1 1 62F07310
+P 12900 4750
+F 0 "#PWR?" H 12900 4850 30  0001 C CNN
+F 1 "VCC" H 12900 4850 30  0000 C CNN
+F 2 "" H 12900 4750 60  0000 C CNN
+F 3 "" H 12900 4750 60  0000 C CNN
+	1    12900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L XT-IDE-rescue:GND-RESCUE-XT-IDE #PWR?
+U 1 1 62F07B6B
+P 15200 4750
+F 0 "#PWR?" H 15200 4750 30  0001 C CNN
+F 1 "GND" H 15200 4680 30  0001 C CNN
+F 2 "" H 15200 4750 60  0000 C CNN
+F 3 "" H 15200 4750 60  0000 C CNN
+	1    15200 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15200 4650 15200 4750
+Wire Wire Line
+	14400 1850 15700 1850
+NoConn ~ 14300 4250
+$Comp
+L power:VCC #PWR?
+U 1 1 6309BC9F
+P 12900 5250
+F 0 "#PWR?" H 12900 5350 30  0001 C CNN
+F 1 "VCC" H 12900 5350 30  0000 C CNN
+F 2 "" H 12900 5250 60  0000 C CNN
+F 3 "" H 12900 5250 60  0000 C CNN
+	1    12900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 6309C141
+P 15350 5250
+F 0 "#PWR?" H 15350 5350 30  0001 C CNN
+F 1 "VCC" H 15350 5350 30  0000 C CNN
+F 2 "" H 15350 5250 60  0000 C CNN
+F 3 "" H 15350 5250 60  0000 C CNN
+	1    15350 5250
+	1    0    0    -1  
+$EndComp
+Text Label 14450 5450 0    60   ~ 0
+GND
+Wire Wire Line
+	14300 5450 14950 5450
+Text Label 13300 5450 0    60   ~ 0
+GND
+Wire Wire Line
+	13150 5450 13800 5450
+Wire Wire Line
+	12900 5250 12900 5350
+Wire Wire Line
+	12900 5350 13800 5350
+Wire Wire Line
+	14300 5350 15350 5350
+Wire Wire Line
+	15350 5350 15350 5250
 $EndSCHEMATC
